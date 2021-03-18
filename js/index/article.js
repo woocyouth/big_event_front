@@ -27,11 +27,7 @@ $(function () {
                     next: res.data.next
                 });
                 $(".left_con").prepend(htmlStr);
-<<<<<<< HEAD
-
                 initLatestComment();
-=======
->>>>>>> index
             }
         })
     }
@@ -47,9 +43,6 @@ $(function () {
         letter_id = $(this).attr("data-id");
         initLetter();
     })
-
-
-    initLatestComment();
 
     function initLatestComment() {
         $.ajax({
