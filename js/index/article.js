@@ -27,8 +27,11 @@ $(function () {
                     next: res.data.next
                 });
                 $(".left_con").prepend(htmlStr);
+<<<<<<< HEAD
 
                 initLatestComment();
+=======
+>>>>>>> index
             }
         })
     }
